@@ -10,7 +10,7 @@ body {
 }
 h1{
     font-size: x-large;
-    background-color: navy;
+    background: navy url(header-bg.jpg) repeat-y right;
     color: white;
     padding-top: 2em;
     padding-bottom: .2em;
@@ -34,7 +34,7 @@ p {
 #tagline p {
     font-style: italic;
     font-family: Georgia, Times, serif;
-    background-color: #bed8f3;
+    background: #bed8f3 url(tagline-fade.jpg) reoeat-y right;
     border-top: 3px solid #7da5d8;
     border-bottom: 3px solid #7da5d8;
     padding-top: .2em;
@@ -75,7 +75,8 @@ a:active {
 }
 #navigation {
     width: 180px;
-    background-color: #7da5d8
+    height: 484px;
+    background: #7da5d8 url(nav-bg.jpg) no-repeat;
 }
 #header {  
     border-top: 3px solid #7da5d8;
@@ -96,4 +97,21 @@ a:active {
 .feature {
     float: right;
     margin: 10px;
+}
+img {
+    border: 15px solid white;
+}
+.galleryphoto p {
+    font-size: 65%;
+    font-weight: bold;
+    margin-top: 0;
+    width: 430px;
+    line-height: 1.4em;
+    padding-bottom: 20px;
+    border-bottom: 1px solid navy;
+    margin-bottom: 10px;
+}
+.photocredit {
+    font-weight: normal;
+    color: gray;
 }
